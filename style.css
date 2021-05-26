@@ -236,11 +236,11 @@ section.temas .container-content .iconos-temas{
     margin-top:56px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 section.temas .container-content .iconos-temas .iconos-temas_ico{
-    width: 25%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +248,7 @@ section.temas .container-content .iconos-temas .iconos-temas_ico{
 
 section.temas .container-content .iconos-temas .iconos-temas_ico span{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #060A24;
     letter-spacing: 0;
     text-align: center;
@@ -346,12 +346,14 @@ nav.footer ul li a .fab:hover, nav.footer ul li a .far:hover{
     section.venimos .container-content .img-venimos{
         width:100%;
         height: unset;
+        display:flex;
+        justify-content: center;
     }
     
     section.venimos .container-content .img-venimos img{
         position: unset;
         height:unset;
-        width: 100%;
+        width: 80%;
         margin-top:-110px;
     }
     
@@ -562,12 +564,15 @@ nav.footer ul li a .fab:hover, nav.footer ul li a .far:hover{
     section.venimos .container-content .img-venimos{
         width:100%;
         height: unset;
+        display:flex;
+        justify-content: center;
     }
     
     section.venimos .container-content .img-venimos img{
         position: unset;
         height:unset;
-        width: 100%;
+        width: 70%;
+        margin:0 auto;
         margin-top:-150px;
     }
     
