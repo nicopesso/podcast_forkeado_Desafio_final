@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#060A24;
+}
+
+.container{
+    margin:0 10%;
+}
+
+.container2{
+    margin:0 10%;
+}
+
+.container-content{
+    margin:0 10%;
+}
+
+h1{
+    font-size:64px ;
+}
+
+h2{
+    font-size: 48px;
+}
+
+p{
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+button.boton{
+    color:#060A24;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size:18px;
+    font-weight: 300;
+    text-align:center;
+    line-height: 24px;
+    background-color: #00F3BB ;
+    padding:16px 59px;
+    border:none;
+    cursor: pointer;
+}
+
+button.boton:hover{
+    color:#fff;
+    background: rgb(0,240,184);
+    background: linear-gradient(90deg, rgba(0,240,184,1) 0%, rgba(0,0,254,1) 100%);
+}
+
+/*NAVEGADOR*/
+
+nav.navegador{
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin:0 10%; */
+    margin-top: 22px;
+    height:80px;
+    background-color:#fff;
+}
+
+nav.navegador .logo img{
+    height:36px;
+    width:36px;
+    margin:0px;
+    padding:0px;
+}
+
+nav.navegador ul{
+    list-style-type: none;
+    position: relative;
+}
+
+nav.navegador ul li{
+    float:left;
+    margin-left:48px;
+}
+
+nav.navegador ul li a{
+    color: #060A24;
+    text-decoration:none;
+    font-size:16px;
+}
+
+nav.navegador ul li a:hover{
+    color: #00F3BB;
+    text-decoration:line-through;
+}
+
+nav.navegador ul li a:active{
+    color: #060A24 56%;
+    text-decoration:line-through;
+}
+
+.buttons{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+/*FIN NAVEGADOR*/
+
+
+/*ENCABEZADO*/
+
+section.encabezado{
+    margin-top:120px;
+}
+
+section.encabezado h1 span{
+    text-decoration: line-through ;
+}
+
+section.encabezado p{
+    width: 630px ;
+    margin-bottom:56px;
+}
+
+/*FIN ENCABEZADO*/
+
+/*EPISODIOS*/
+
+section.episodios{
+    margin-top:100px;
+    background-image: linear-gradient(45deg, #0000A3, #0000FF);
+    transform: skewY(-7deg);
+    height: 900px;
+}
+
+section.episodios .container{
+    transform: skewY(7deg);
+}
+
+section.episodios .container-content{
+    height:200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section.episodios h2{
+    margin-bottom:26px;
+    color:#fff
+}
+
+.iframes-episodios {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iframes-episodios iframe{
+    width: 40%;
+    margin-bottom:40px;
+}
+
+.iframes-episodios iframe:nth-child(1),.iframes-episodios iframe:nth-child(3){
+    margin-right:40px;
+}
+
+/*FIN EPISODIOS*/
+
+/*VENIMOS*/
+
+section.venimos{
+    height:600px;
+}
+
+section.venimos .container-content{
+    display: flex;
+}
+
+section.venimos .container-content .img-venimos{
+    position: relative;
+    height:660px;
+    width:600px;
+}
+
+section.venimos .container-content .img-venimos img{
+    position:absolute;
+    height: 660px;
+    margin-top:-100px;
+}
+
+section.venimos .container-content .texto-venimos{
+    float: right;
+    margin-top: 80px;
+    margin-left:40%;
+}
+
+/*FIN VENIMOS*/
+
+/*INVITADOS*/
+
+section.invitados .imagenes-estelares{
+    margin-top:36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.invitados .imagenes-estelares img{
+    width: 33.3%;
+}
+
+/*FIN INVITADOS*/
+
+/*TEMAS*/
+
+section.temas{
+    margin-top: 64px;
+}
+
+section.temas .container-content .iconos-temas{
+    margin-top:56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.temas .container-content .iconos-temas .iconos-temas_ico{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.temas .container-content .iconos-temas .iconos-temas_ico span{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    width: 80%;
+}
+
+section.temas .container-content .iconos-temas .iconos-temas_ico img{
+    width: 104px;
+    margin-bottom: 29px;
+} 
+
+/*FIN TEEMAS*/
+
+/*FOOTER*/
+
+footer{
+    margin-top:50px;
+    clip-path: polygon(0 19%, 100% 6%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(45deg, #0000A3, #0000FF);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    overflow: hidden;
+    justify-content: center;
+}
+
+footer h2{
+    color: white;
+    margin-bottom: 36px;
+}
+
+footer .container{
+    margin-top:150px;
+}
+
+footer .container .container-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav.footer{
+    background: #fff;
+    width: 100%;
+    height: 80px;
+    margin-top:150px;
+}
+
+nav.footer .container2{
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height:80px;
+}
+
+nav.footer ul{
+    list-style-type: none;
+}
+
+nav.footer ul li{
+    float:left;
+    margin-left:48px;
+}
+
+nav.footer ul li a .fab, nav.footer ul li a .far{
+    font-size: 18px;
+    color: #060A24 ;
+}
+
+nav.footer ul li a .fab:hover, nav.footer ul li a .far:hover{
+    color: #00F3BB ;
+}
+
+/*FIN FOOTER*/
+
+
+/*TABLET*/
+
+@media screen and (min-width:768px) and (max-width:1100px){
+    /*VENIMOS*/
+
+    section.venimos{
+        height:unset;
+        margin-bottom: 54px;
+    }
+
+    section.venimos .container-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section.venimos .container-content .img-venimos{
+        width:100%;
+        height: unset;
+    }
+    
+    section.venimos .container-content .img-venimos img{
+        position: unset;
+        height:unset;
+        width: 100%;
+        margin-top:-110px;
+    }
+    
+    section.venimos .container-content .texto-venimos{
+        margin-top: 27px;
+        margin-left:0px;
+        float: none;
+    }
+
+    /*FIN VENIMOS*/
+}
+
+/*MOBILE*/
+
+@media screen and (max-width:768px){
+
+    .container{
+        margin: 0 5%;
+    }
+
+    .container2{
+        margin:0 5%;
+    }
+
+    .container-content{
+        margin:0%;
+    }
+
+    h1,h2{
+        font-size:36px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    button.boton{
+        font-size:16px;
+        padding:10px 30px;
+        width: 100%;
+    }
+
+    /*NAVEGADOR MOBILE*/
+
+    nav.navegador{
+        font-family: 'IBM Plex Mono', monospace;
+        display: unset;
+        margin:0;
+        margin-top:20px;
+        height:80px;
+    } 
+
+    nav.navegador .logo img{
+        height:24px;
+        width:24px;
+        margin:0px;
+        padding:0px;
+        margin-top:20px;
+    }
+
+    nav.navegador ul{
+        list-style-type: none;
+        position: absolute;
+        margin-top: 20px;
+        margin-left:-5%;
+    }
+
+    nav.navegador ul li{
+        float:none;
+        margin: 25px 15px;
+    }
+
+    nav.navegador ul li a{
+        color:#fff;
+        text-decoration: none;
+    }
+
+    nav.navegador .buttons {
+        cursor: pointer;
+        display: block;
+        float: right;
+        height: 20px;
+        margin-right: 7px;
+        margin-top:20px;
+        padding: 0;
+        position: relative;
+        width: 20px;
+    }
+
+    nav.navegador .logo{
+        display: inline !important;
+        /* margin-left:5%; */
+    }
+
+    ul.nav_list{
+        background-color: #042eeb;
+        /* display:none; */
+        opacity: 0%;
+        list-style-type: none;
+        margin-top: 0;
+        padding: 7px;
+        position: absolute;
+        top: 42px;
+        transition: 0.2s all;
+        width: 100%;  
+    }
+
+    nav.navegador .buttons .menu-hamburguesa span {
+        background: #000;
+        display: block;
+        height: 2px;
+        position: absolute;
+        transition: 0.5s all;
+        width: 20px
+    }
+
+    nav .buttons span:nth-of-type(1) { top: 0%; }
+    nav .buttons span:nth-of-type(2) { top: 45%; }
+    nav .buttons span:nth-of-type(3) { top: 92%; }
+
+    #menu { display: none; }
+    #menu:checked + .buttons span:nth-of-type(1) {
+        transform: rotate(45deg) translateY(13px);
+    }
+    #menu:checked + .buttons span:nth-of-type(2) {
+        opacity: 0;
+    }
+    #menu:checked + .buttons span:nth-of-type(3) {
+        transform: rotate(-45deg) translateY(-13px);
+    }
+    #menu:checked + .buttons span {
+        right: -8px;
+    }
+
+    #menu:checked + .buttons + ul {
+        opacity: 100%;
+    }
+
+    /*FIN NAVEGADOR*/
+
+    /*ENCABEZADO*/
+
+    section.encabezado{
+        margin-top:30px;
+    }
+
+    section.encabezado h1 span{
+        text-decoration: line-through ;
+    }
+
+    section.encabezado p{
+        width: 100% ;
+        margin-bottom:35px;
+    }
+
+    /*FIN ENCABEZADO*/
+
+    /*EPISODIOS*/
+
+    section.episodios{
+        margin-top:60px;
+        background-image: linear-gradient(45deg, #0000A3, #0000FF);
+        transform: skewY(-7deg);
+        height: 1300px;
+    }
+    
+    section.episodios .container{
+        transform: skewY(7deg);
+    }
+    
+    section.episodios .container-content{
+        height:130px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .iframes-episodios {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    
+    .iframes-episodios iframe{
+        width: 100%;
+        margin-bottom:10px;
+    }
+
+    .iframes-episodios iframe:nth-child(1),.iframes-episodios iframe:nth-child(3){
+        margin-right:0px;
+    }
+
+    /*FIN EPISODIOS*/
+
+    /*VENIMOS*/
+
+    section.venimos{
+        height:unset;
+        margin-bottom: 54px;
+    }
+
+    section.venimos .container-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.venimos .container-content .img-venimos{
+        width:100%;
+        height: unset;
+    }
+    
+    section.venimos .container-content .img-venimos img{
+        position: unset;
+        height:unset;
+        width: 100%;
+        margin-top:-150px;
+    }
+    
+    section.venimos .container-content .texto-venimos{
+        margin-top: 27px;
+        margin-left:0px;
+        float: none;
+    }
+
+    /*FIN VENIMOS*/
+
+    /*INVITADOS*/
+
+    section.invitados .container .container-content{
+        margin:0;
+    }
+
+    section.invitados .container-content{
+        margin: 0 5%;
+    }
+
+    section.invitados .imagenes-estelares{
+        margin-top:14px;
+        flex-wrap: column;
+    }
+
+    section.invitados .imagenes-estelares img{
+        width: 100%;
+    }
+
+    /*FIN INVITADOS*/
+
+    /*TEMAS*/
+
+    section.temas .container-content .iconos-temas .iconos-temas_ico{
+        width: 100%;
+        margin-bottom:36px;
+    }
+    
+    /*FIN TEMAS*/
+    
+    footer{
+        margin-top:0px;
+        text-align: center;
+    }
+    
+    footer .container{
+        margin-top:110px;
+    }
+    
+    nav.footer{
+        margin-top:80px;
+        height: 90px;
+    }
+    
+    nav.footer .container2{
+        font-family: 'IBM Plex Mono', monospace;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav.footer .container2 p{
+        margin-bottom:16px;
+    }
+    
+    nav.footer ul{
+        list-style-type: none;
+    }
+
+    nav.footer ul li:first-child{
+        margin-left:0px;
+    }
+
+    nav.footer ul li a .fab, nav.footer ul li a .far{
+        font-size: 14px;
+        color: #060A24 ;
+    }
+    
+    /*FIN FOOTER*/
+
+}
+
+/*MOBILE*/
