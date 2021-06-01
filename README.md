@@ -1,1 +1,2 @@
-# podcast
+# 
+Pale Blue Dot Podcast project.
