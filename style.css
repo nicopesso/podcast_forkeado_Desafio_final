@@ -47,13 +47,13 @@ p{
 }
 
 button.boton{
-    color:#060A24;
+    color:white;
     font-family: 'IBM Plex Mono', monospace;
     font-size:18px;
     font-weight: 300;
     text-align:center;
     line-height: 24px;
-    background-color: #00F3BB ;
+    background-color: blue ;
     padding:16px 59px;
     border:none;
     cursor: pointer;
